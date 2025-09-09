@@ -1,0 +1,313 @@
+{
+  "PROD001": {
+    "productName": "Railway Signal Controller",
+    "productId": "PROD001",
+    "category": "Signaling Equipment",
+    "model": "RSC-2024-A",
+    "serialNumber": "RSC001-2024-001",
+    "warranty": "2 years",
+    "warrantyExpiry": "2026-01-15",
+    "vendorName": "Bharat Electronics Limited",
+    "vendorContact": "+91-80-2505-1234",
+    "vendorEmail": "support@bel-india.com",
+    "mfg": "2024-01-15",
+    "installationDate": "2024-02-01",
+    "lastMaintenance": "2024-11-15",
+    "nextMaintenance": "2025-02-15",
+    "location": "Mumbai Central Station, Platform 3",
+    "status": "Operational",
+    "condition": "Good",
+    "specifications": {
+      "voltage": "24V DC",
+      "powerConsumption": "50W",
+      "operatingTemperature": "-20°C to +60°C",
+      "humidity": "95% RH non-condensing"
+    },
+    "maintenanceHistory": [
+      {
+        "date": "2024-11-15",
+        "type": "Preventive Maintenance",
+        "inspector": "Rajesh Kumar",
+        "notes": "Cleaned contacts, checked voltage levels"
+      },
+      {
+        "date": "2024-08-20",
+        "type": "Repair",
+        "inspector": "Priya Sharma",
+        "notes": "Replaced faulty relay module"
+      }
+    ]
+  },
+  "PROD002": {
+    "productName": "Track Monitoring Sensor",
+    "productId": "PROD002",
+    "category": "Monitoring Equipment",
+    "model": "TMS-2023-B",
+    "serialNumber": "TMS002-2023-045",
+    "warranty": "3 years",
+    "warrantyExpiry": "2026-11-20",
+    "vendorName": "Hindustan Aeronautics Limited",
+    "vendorContact": "+91-80-2232-5678",
+    "vendorEmail": "railway@hal-india.com",
+    "mfg": "2023-11-20",
+    "installationDate": "2023-12-10",
+    "lastMaintenance": "2024-10-30",
+    "nextMaintenance": "2025-01-30",
+    "location": "Delhi Junction, Track 5",
+    "status": "Operational",
+    "condition": "Excellent",
+    "specifications": {
+      "sensorType": "Vibration & Temperature",
+      "range": "0-1000 Hz",
+      "accuracy": "±0.1%",
+      "batteryLife": "5 years"
+    },
+    "maintenanceHistory": [
+      {
+        "date": "2024-10-30",
+        "type": "Calibration",
+        "inspector": "Amit Patel",
+        "notes": "Calibrated sensors, updated firmware"
+      }
+    ]
+  },
+  "PROD003": {
+    "productName": "Communication Antenna",
+    "productId": "PROD003",
+    "category": "Communication Equipment",
+    "model": "CA-2024-C",
+    "serialNumber": "CA003-2024-012",
+    "warranty": "5 years",
+    "warrantyExpiry": "2029-03-10",
+    "vendorName": "Tata Advanced Systems",
+    "vendorContact": "+91-22-6665-9999",
+    "vendorEmail": "railway.support@tata.com",
+    "mfg": "2024-03-10",
+    "installationDate": "2024-04-05",
+    "lastMaintenance": "2024-09-15",
+    "nextMaintenance": "2025-03-15",
+    "location": "Chennai Central, Signal Tower",
+    "status": "Operational",
+    "condition": "Good",
+    "specifications": {
+      "frequency": "400-470 MHz",
+      "gain": "8 dBi",
+      "impedance": "50 Ohms",
+      "height": "15 meters"
+    },
+    "maintenanceHistory": [
+      {
+        "date": "2024-09-15",
+        "type": "Inspection",
+        "inspector": "Suresh Reddy",
+        "notes": "Checked mounting bolts, tested signal strength"
+      }
+    ]
+  },
+  "RAIL001": {
+    "productName": "Rail Clip (Pandrol E-Clip)",
+    "productId": "RAIL001",
+    "category": "Track Fastening System",
+    "model": "Pandrol E-Clip 2000",
+    "serialNumber": "PC001-2024-089",
+    "warranty": "15 years",
+    "warrantyExpiry": "2039-06-15",
+    "vendorName": "Pandrol India Limited",
+    "vendorContact": "+91-44-2855-1234",
+    "vendorEmail": "support@pandrol-india.com",
+    "mfg": "2024-06-15",
+    "installationDate": "2024-07-20",
+    "lastMaintenance": "2024-12-01",
+    "nextMaintenance": "2025-06-01",
+    "location": "Mumbai-Delhi Route, KM 245+500, Track 1",
+    "status": "Operational",
+    "condition": "Good",
+    "specifications": {
+      "material": "Spring Steel",
+      "tensileStrength": "1600 MPa",
+      "weight": "0.85 kg",
+      "corrosionResistance": "Hot Dip Galvanized",
+      "trackGauge": "1676 mm (Broad Gauge)"
+    },
+    "maintenanceHistory": [
+      {
+        "date": "2024-12-01",
+        "type": "Visual Inspection",
+        "inspector": "Vikram Singh",
+        "notes": "Checked clip tension, no visible corrosion, proper seating on rail foot"
+      },
+      {
+        "date": "2024-07-20",
+        "type": "Installation",
+        "inspector": "Ramesh Kumar",
+        "notes": "New installation, proper torque applied, clip seated correctly"
+      }
+    ]
+  },
+  "SLEEP001": {
+    "productName": "Concrete Sleeper (PSC)",
+    "productId": "SLEEP001",
+    "category": "Track Infrastructure",
+    "model": "PSC Sleeper Type-II",
+    "serialNumber": "PSC001-2024-156",
+    "warranty": "50 years",
+    "warrantyExpiry": "2074-08-10",
+    "vendorName": "Rail Vikas Nigam Limited",
+    "vendorContact": "+91-11-2337-5678",
+    "vendorEmail": "technical@rvnl.org",
+    "mfg": "2024-08-10",
+    "installationDate": "2024-09-15",
+    "lastMaintenance": "2024-11-20",
+    "nextMaintenance": "2025-05-20",
+    "location": "Delhi-Chennai Route, KM 180+250, Track 2",
+    "status": "Operational",
+    "condition": "Excellent",
+    "specifications": {
+      "length": "2750 mm",
+      "width": "250 mm",
+      "height": "200 mm",
+      "material": "Pre-stressed Concrete",
+      "concreteGrade": "M40",
+      "steelGrade": "Fe 500D",
+      "weight": "300 kg"
+    },
+    "maintenanceHistory": [
+      {
+        "date": "2024-11-20",
+        "type": "Structural Inspection",
+        "inspector": "Dr. Anil Gupta",
+        "notes": "No cracks observed, proper alignment maintained, fastenings secure"
+      },
+      {
+        "date": "2024-09-15",
+        "type": "Installation",
+        "inspector": "Suresh Yadav",
+        "notes": "New sleeper installation, proper ballast packing, correct gauge maintained"
+      }
+    ]
+  },
+  "PAD001": {
+    "productName": "Rail Pad (Rubber)",
+    "productId": "PAD001",
+    "category": "Track Components",
+    "model": "Rubber Pad Type-RP-12",
+    "serialNumber": "RP001-2024-234",
+    "warranty": "8 years",
+    "warrantyExpiry": "2032-10-25",
+    "vendorName": "Indian Rubber Industries",
+    "vendorContact": "+91-33-2245-7890",
+    "vendorEmail": "railway@indianrubber.com",
+    "mfg": "2024-10-25",
+    "installationDate": "2024-11-10",
+    "lastMaintenance": "2024-12-05",
+    "nextMaintenance": "2025-06-05",
+    "location": "Chennai-Bangalore Route, KM 95+750, Track 1",
+    "status": "Operational",
+    "condition": "Good",
+    "specifications": {
+      "material": "Natural Rubber Compound",
+      "thickness": "12 mm",
+      "hardness": "65-75 Shore A",
+      "dimensions": "200mm x 150mm",
+      "compressionSet": "≤25%",
+      "temperatureRange": "-40°C to +80°C"
+    },
+    "maintenanceHistory": [
+      {
+        "date": "2024-12-05",
+        "type": "Condition Check",
+        "inspector": "Rajesh Nair",
+        "notes": "No visible deterioration, proper compression maintained, no cracks"
+      },
+      {
+        "date": "2024-11-10",
+        "type": "Installation",
+        "inspector": "Kumar Swamy",
+        "notes": "New pad installation, proper positioning under rail foot"
+      }
+    ]
+  },
+  "BALL001": {
+    "productName": "Track Ballast (Granite)",
+    "productId": "BALL001",
+    "category": "Track Foundation",
+    "model": "Granite Ballast Grade-A",
+    "serialNumber": "GB001-2024-045",
+    "warranty": "20 years",
+    "warrantyExpiry": "2044-05-12",
+    "vendorName": "South Western Railway",
+    "vendorContact": "+91-80-2235-4567",
+    "vendorEmail": "materials@swr.indianrailways.gov.in",
+    "mfg": "2024-05-12",
+    "installationDate": "2024-06-01",
+    "lastMaintenance": "2024-11-25",
+    "nextMaintenance": "2025-05-25",
+    "location": "Bangalore-Mysore Route, KM 45+300, Track 1",
+    "status": "Operational",
+    "condition": "Good",
+    "specifications": {
+      "material": "Granite Stone",
+      "size": "20-65 mm",
+      "grading": "Grade-A (Premium)",
+      "abrasionValue": "≤25%",
+      "impactValue": "≤25%",
+      "waterAbsorption": "≤1%",
+      "specificGravity": "2.6-2.8"
+    },
+    "maintenanceHistory": [
+      {
+        "date": "2024-11-25",
+        "type": "Tamping & Packing",
+        "inspector": "Manoj Reddy",
+        "notes": "Ballast re-packed, proper consolidation achieved, drainage maintained"
+      },
+      {
+        "date": "2024-06-01",
+        "type": "Fresh Laying",
+        "inspector": "Srinivas Rao",
+        "notes": "New ballast laying, proper depth maintained (300mm), good drainage"
+      }
+    ]
+  },
+  "JOINT001": {
+    "productName": "Rail Joint (Thermite Welded)",
+    "productId": "JOINT001",
+    "category": "Rail Welding",
+    "model": "Thermite Weld Type-TW-60",
+    "serialNumber": "TW001-2024-078",
+    "warranty": "25 years",
+    "warrantyExpiry": "2049-09-18",
+    "vendorName": "Railway Welding Services",
+    "vendorContact": "+91-40-2789-1234",
+    "vendorEmail": "welding@rws-india.com",
+    "mfg": "2024-09-18",
+    "installationDate": "2024-09-20",
+    "lastMaintenance": "2024-12-10",
+    "nextMaintenance": "2025-06-10",
+    "location": "Hyderabad-Vijayawada Route, KM 120+450, Track 2",
+    "status": "Operational",
+    "condition": "Excellent",
+    "specifications": {
+      "weldType": "Thermite Welding",
+      "railSection": "60 kg/m",
+      "weldMaterial": "Thermite Mixture",
+      "tensileStrength": "≥800 MPa",
+      "impactEnergy": "≥27 J at -20°C",
+      "hardness": "250-350 HB"
+    },
+    "maintenanceHistory": [
+      {
+        "date": "2024-12-10",
+        "type": "Ultrasonic Testing",
+        "inspector": "Dr. Venkat Rao",
+        "notes": "UT scan completed, no internal defects detected, weld integrity excellent"
+      },
+      {
+        "date": "2024-09-20",
+        "type": "Welding",
+        "inspector": "Kiran Kumar",
+        "notes": "Thermite welding completed, proper preheating and post-heating applied"
+      }
+    ]
+  }
+}

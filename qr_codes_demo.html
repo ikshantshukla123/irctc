@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IRCTC Inspector Dashboard - QR Codes for Demo</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #1E40AF, #1E3A8A);
+            color: white;
+            margin: 0;
+            padding: 20px;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        .subtitle {
+            font-size: 1.2rem;
+            margin-bottom: 40px;
+            opacity: 0.9;
+        }
+        .qr-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+        .qr-card {
+            background: white;
+            color: #333;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            transition: transform 0.3s ease;
+        }
+        .qr-card:hover {
+            transform: translateY(-5px);
+        }
+        .qr-card h3 {
+            color: #1E40AF;
+            margin-bottom: 15px;
+            font-size: 1.5rem;
+        }
+        .qr-card img {
+            max-width: 200px;
+            height: auto;
+            margin: 20px 0;
+            border: 3px solid #1E40AF;
+            border-radius: 10px;
+        }
+        .product-info {
+            text-align: left;
+            margin-top: 15px;
+            padding: 15px;
+            background: #f8fafc;
+            border-radius: 8px;
+            border-left: 4px solid #1E40AF;
+        }
+        .product-info p {
+            margin: 5px 0;
+            font-size: 0.9rem;
+        }
+        .demo-instructions {
+            background: rgba(255,255,255,0.1);
+            padding: 20px;
+            border-radius: 10px;
+            margin: 30px 0;
+            backdrop-filter: blur(10px);
+        }
+        .demo-instructions h2 {
+            margin-top: 0;
+            color: #FFD700;
+        }
+        .demo-instructions ol {
+            text-align: left;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .demo-instructions li {
+            margin: 10px 0;
+            font-size: 1.1rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🚂 IRCTC Inspector Dashboard</h1>
+        <p class="subtitle">QR Codes for Product Demo</p>
+        
+        <div class="demo-instructions">
+            <h2>📱 Demo Instructions</h2>
+            <ol>
+                <li>Open the IRCTC Inspector Dashboard at <strong>http://localhost:5173</strong></li>
+                <li>Click "Start Camera Scan" to activate the QR scanner</li>
+                <li>Scan any of the QR codes below with your camera</li>
+                <li>Watch the detailed product information appear instantly!</li>
+                <li>Navigate through the dashboard, update conditions, and view history</li>
+            </ol>
+        </div>
+
+        <div class="qr-grid">
+            <div class="qr-card">
+                <h3>🚦 Railway Signal Controller</h3>
+                <img src="prod001_demo.png" alt="QR Code for PROD001">
+                <div class="product-info">
+                    <p><strong>Product ID:</strong> PROD001</p>
+                    <p><strong>Vendor:</strong> Bharat Electronics Limited</p>
+                    <p><strong>Status:</strong> Operational</p>
+                    <p><strong>Condition:</strong> Good</p>
+                    <p><strong>Warranty:</strong> 2 years</p>
+                </div>
+            </div>
+
+            <div class="qr-card">
+                <h3>📊 Track Monitoring Sensor</h3>
+                <img src="prod002.png" alt="QR Code for PROD002">
+                <div class="product-info">
+                    <p><strong>Product ID:</strong> PROD002</p>
+                    <p><strong>Vendor:</strong> Hindustan Aeronautics Limited</p>
+                    <p><strong>Status:</strong> Operational</p>
+                    <p><strong>Condition:</strong> Excellent</p>
+                    <p><strong>Warranty:</strong> 3 years</p>
+                </div>
+            </div>
+
+            <div class="qr-card">
+                <h3>📡 Communication Antenna</h3>
+                <img src="prod003.png" alt="QR Code for PROD003">
+                <div class="product-info">
+                    <p><strong>Product ID:</strong> PROD003</p>
+                    <p><strong>Vendor:</strong> Tata Advanced Systems</p>
+                    <p><strong>Status:</strong> Operational</p>
+                    <p><strong>Condition:</strong> Good</p>
+                    <p><strong>Warranty:</strong> 5 years</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="demo-instructions">
+            <h2>🎯 Demo Tips for Tomorrow</h2>
+            <ol>
+                <li><strong>Start with PROD001</strong> - It has the most comprehensive data and maintenance history</li>
+                <li><strong>Show the routing</strong> - Navigate between Dashboard, Update Condition, and History pages</li>
+                <li><strong>Demonstrate the form</strong> - Fill out the professional condition update form</li>
+                <li><strong>Highlight features</strong> - GPS tracking, image upload, audit trail</li>
+                <li><strong>Use the large QR code</strong> - prod001_demo.png is bigger and easier to scan</li>
+            </ol>
+        </div>
+    </div>
+</body>
+</html>
